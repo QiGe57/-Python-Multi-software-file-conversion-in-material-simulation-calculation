@@ -23,7 +23,7 @@
 
 ## 3，TDB转换为h文件
 
-    ``` XTPowerAndHeating ```    包含TDB文件，cpp文件的生成目录
+  ``` XTPowerAndHeating ```  包含TDB文件，cpp文件的生成目录
     
    ```  change_TDB_FUNCTION_to_Cpp.py ```   生成 cpp 头文件，提取 function 到 cpp 文件中
    
