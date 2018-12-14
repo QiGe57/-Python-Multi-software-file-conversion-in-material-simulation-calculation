@@ -1,4 +1,3 @@
-# -Python-Multi-software-file-conversion-in-material-simulation-calculation
 # 用python实现材料模拟计算中多软件间文件转换
 背景：
 材料模拟计算过程中涉及到多个仿真软件，但由于这多个软件是由不同软件开发商提供，软件的仿真输入与输出结果的文件格式不统一。
@@ -17,4 +16,4 @@
 **运行程序**  ```python  OpenPhase_Elastic.py  ```
 
 ## 3，TDB转换为h文件
-**运行程序**  ```python  TDB_TO_CPP/TDB_to_Cpp.py  ```
+**运行程序**  ```Python  TDB_TO_CPP/TDB_to_Cpp.py  ```
