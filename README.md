@@ -16,4 +16,4 @@
 **运行程序**  ```python  OpenPhase_Elastic.py  ```
 
 ## 3，TDB转换为h文件
-**运行程序**  ```Python  TDB_TO_CPP/TDB_to_Cpp.py  ```
+**运行程序**  ```python  TDB_TO_CPP/TDB_to_Cpp.py  ```
