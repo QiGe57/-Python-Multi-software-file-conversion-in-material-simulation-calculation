@@ -1,0 +1,12 @@
+$alphanonlocal         Nonlocal value          : 1e-14
+
+$maxDmg                                        : 0.85
+$damageflag_0          Damage (Yes/No)         : Yes
+$damagetype_0          damagetype(0duct 1brit) : 0
+$k0_linear_0           damagestart             : 0.03
+$kc_linear_0           damagefinish            : 0.1
+
+$damageflag_1          Damage (Yes/No)         : Yes
+$damagetype_1          damagetype(0duct 1brit) : 0
+$k0_linear_1           damagestart             : 0.03
+$kc_linear_1           damagefinish            : 0.1

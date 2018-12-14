@@ -1,0 +1,8 @@
+Standard Open Phase Input File
+!!!All values in MKS (or properly scaled) units please!!!
+
+$scheme  Advection scheme (Upwind/LaxWendroff): Upwind
+
+$ux velocity in x-direction : 0.000
+$uy velocity in y-direction : 0.000
+$uz velocity in z-direction : 0.000

@@ -1,0 +1,8 @@
+$Sigma_00  Interface energy       : 0.5
+$Eps_00    Interface anisotropy   : 0.0
+
+$Sigma_01  Interface energy       : 0.5
+$Eps_01    Interface anisotropy   : 0.0
+
+$Sigma_11  Interface energy       : 0.5
+$Eps_11    Interface anisotropy   : 0.0

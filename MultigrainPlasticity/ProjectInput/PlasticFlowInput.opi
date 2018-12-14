@@ -1,0 +1,123 @@
+$Crystal0      : BCC
+$Crystal1      : FCC
+
+$n0            : 10.
+$n1            : 10.
+
+$Sliprate0     : 0.22
+$Sliprate1     : 0.22
+
+$Hardening0	   : Yes
+$Hardening1	   : Yes
+
+$HardEponent0  : 0.5
+$HardEponent1  : 0.7
+
+$Burgers0      : 0.3e-9
+$Burgers1      : 0.3e-9
+
+$ShearRateCutoff : 1e5
+
+$CRSS0_0       : 9e8
+$CRSS0_1       : 9e8
+$CRSS0_2       : 9e8
+$CRSS0_3       : 9e8
+$CRSS0_4       : 9e8
+$CRSS0_5       : 9e8
+$CRSS0_6       : 9e8
+$CRSS0_7       : 9e8
+$CRSS0_8       : 9e8
+$CRSS0_9       : 9e8
+$CRSS0_10      : 9e8
+$CRSS0_11      : 9e8
+
+$sCRSS0_0       : 11e8
+$sCRSS0_1       : 11e8
+$sCRSS0_2       : 11e8
+$sCRSS0_3       : 11e8
+$sCRSS0_4       : 11e8
+$sCRSS0_5       : 11e8
+$sCRSS0_6       : 11e8
+$sCRSS0_7       : 11e8
+$sCRSS0_8       : 11e8
+$sCRSS0_9       : 11e8
+$sCRSS0_10      : 11e8
+$sCRSS0_11      : 11e8
+
+$IniHard0_0       : 2e10
+$IniHard0_1       : 2e10
+$IniHard0_2       : 2e10
+$IniHard0_3       : 2e10
+$IniHard0_4       : 2e10
+$IniHard0_5       : 2e10
+$IniHard0_6       : 2e10
+$IniHard0_7       : 2e10
+$IniHard0_8       : 2e10
+$IniHard0_9       : 2e10
+$IniHard0_10      : 2e10
+$IniHard0_11      : 2e10
+
+$Latent0_0       : 0.3
+$Latent0_1       : 0.3
+$Latent0_2       : 0.3
+$Latent0_3       : 0.3
+$Latent0_4       : 0.3
+$Latent0_5       : 0.3
+$Latent0_6       : 0.3
+$Latent0_7       : 0.3
+$Latent0_8       : 0.3
+$Latent0_9       : 0.3
+$Latent0_10      : 0.3
+$Latent0_11      : 0.3
+
+$CRSS1_0       : 8e8
+$CRSS1_1       : 8e8
+$CRSS1_2       : 8e8
+$CRSS1_3       : 8e8
+$CRSS1_4       : 8e8
+$CRSS1_5       : 8e8
+$CRSS1_6       : 8e8
+$CRSS1_7       : 8e8
+$CRSS1_8       : 8e8
+$CRSS1_9       : 8e8
+$CRSS1_10      : 8e8
+$CRSS1_11      : 8e8
+
+$sCRSS1_0       : 10e8
+$sCRSS1_1       : 10e8
+$sCRSS1_2       : 10e8
+$sCRSS1_3       : 10e8
+$sCRSS1_4       : 10e8
+$sCRSS1_5       : 10e8
+$sCRSS1_6       : 10e8
+$sCRSS1_7       : 10e8
+$sCRSS1_8       : 10e8
+$sCRSS1_9       : 10e8
+$sCRSS1_10      : 10e8
+$sCRSS1_11      : 10e8
+
+$IniHard1_0       : 2e10
+$IniHard1_1       : 2e10
+$IniHard1_2       : 2e10
+$IniHard1_3       : 2e10
+$IniHard1_4       : 2e10
+$IniHard1_5       : 2e10
+$IniHard1_6       : 2e10
+$IniHard1_7       : 2e10
+$IniHard1_8       : 2e10
+$IniHard1_9       : 2e10
+$IniHard1_10      : 2e10
+$IniHard1_11      : 2e10
+
+$Latent1_0       : 0.3
+$Latent1_1       : 0.3
+$Latent1_2       : 0.3
+$Latent1_3       : 0.3
+$Latent1_4       : 0.3
+$Latent1_5       : 0.3
+$Latent1_6       : 0.3
+$Latent1_7       : 0.3
+$Latent1_8       : 0.3
+$Latent1_9       : 0.3
+$Latent1_10      : 0.3
+$Latent1_11      : 0.3

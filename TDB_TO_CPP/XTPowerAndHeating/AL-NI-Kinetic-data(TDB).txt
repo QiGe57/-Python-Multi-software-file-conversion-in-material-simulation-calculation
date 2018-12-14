@@ -1,0 +1,51 @@
+$****************************************************************************
+$                   File name: AlNi-K.TDB
+$     ***************************************************
+$       * The mobility database for the Al-Ni system *
+$     ***************************************************
+$                Compiled by by Lijun Zhang
+$          State Key Laboratory of Powder Metallurgy
+$            Central South University, Changsha
+$                Last update: July 10,2008
+$****************************************************************************
+ TEMP-LIM 298.15 6000.00 !
+$
+ ELEMENT /-   ELECTRON_GAS   0.0000E+00  0.0000E+00  0.0000E+00 !
+ ELEMENT VA   VACUUM         0.0000E+00  0.0000E+00  0.0000E+00 !
+ ELEMENT AL   FCC_A1         2.6982E+01  4.5773E+03  2.8322E+01 !
+ ELEMENT NI   FCC_A1         5.8690E+01  4.7870E+03  2.9797E+01 !
+$
+ DEFINE_SYSTEM_DEFAULT SPECIE 2 !
+ DEFAULT-COM DEF-SY-EL VA !
+$
+ PHASE FCC_A1  % 2 1 1 !
+ CONSTITUENT FCC_A1 :AL,NI:VA: !
+$
+ TYPE-DEFINITION % SEQ * !
+$
+$ Volume data
+ PARAM VS(FCC_A1)  0 1.0E-5; 6000 N !
+$
+ ZEROVOLUME_SPECIES VA !
+$
+$============== D I F F U S I O N   D A T A ============================
+$+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+$                          ***************
+$                           FCC_A1 phase
+$                          ***************
+$ Al diffusivity
+$
+ PARAMETER MQ(FCC_A1&AL,AL:VA) 298.15 -123111.556-97.3364621*T; 6000 N !
+ PARAMETER MQ(FCC_A1&AL,NI:VA) 298.15 -268380.996-71.0388139*T; 6000 N !
+ PARAMETER MQ(FCC_A1&AL,AL,NI:VA;0) 298.15 -308067.461+111.519374*T; 
+ 6000 N !
+$
+$ Ni diffusivity
+$
+ PARAMETER MQ(FCC_A1&NI,NI:VA) 298.15 -271377.558-81.7889507*T; 6000 N !
+ PARAMETER MQ(FCC_A1&NI,AL:VA) 298.15 -144600.000-64.8480000*T; 6000 N !
+ PARAMETER MQ(FCC_A1&NI,AL,NI:VA;0) 298.15 -29571.7880; 6000 N !
+$
+$
+$+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+$

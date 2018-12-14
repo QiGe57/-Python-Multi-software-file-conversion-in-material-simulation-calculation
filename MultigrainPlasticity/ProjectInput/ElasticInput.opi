@@ -1,0 +1,48 @@
+Mechanical boundary conditions:
+Applied Strain
+Applied Stress
+Free Boundaries
+
+$BCX	Mixed Mode X:  Free Boundaries
+$BCY	Mixed Mode Y:  Free Boundaries
+$BCZ	Mixed Mode Z:  Applied Strain
+
+$BCValueX	Mixed Value X	: 0
+$BCValueY	Mixed Value Y	: 0
+$BCValueZ	Mixed Value Z	: 0
+
+$Phase 0
+$C11 100.15e9
+$C22 100.15e9
+$C33 100.15e9
+$C12 66.58e9
+$C13 66.58e9
+$C23 66.58e9
+$C44 25.71e9
+$C55 25.71e9
+$C66 25.71e9
+ 
+$E1 0.0
+$E2 0.0
+$E3 0.0
+$E4 0.0
+$E5 0.0
+$E6 0.0
+
+$Phase 1
+$C11 100.15e9
+$C22 100.15e9
+$C33 100.15e9
+$C12 66.58e9
+$C13 66.58e9
+$C23 66.58e9
+$C44 25.71e9
+$C55 25.71e9
+$C66 25.71e9
+ 
+$E1 0.0
+$E2 0.0
+$E3 0.0
+$E4 0.0
+$E5 0.0
+$E6 0.0

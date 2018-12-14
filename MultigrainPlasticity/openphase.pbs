@@ -1,0 +1,22 @@
+#!/bin/bash
+##PBS  -l ncpus=8,vmem=8GB
+##PBS  -l walltime=24:00:00
+#PBS  -l nodes=1:ppn=8
+#PBS  -j oe
+
+# Get the number of CPUs
+NPROC=`wc -l $PBS_NODEFILE|cut -f1 -d" "`
+
+
+cd $PBS_O_WORKDIR
+ 
+echo  $PBS_JOBID
+echo  "Start time :"
+date
+
+#source /home/phonon/intel/bin/ifortvars.sh intel64
+
+/home/cszx01/OpenPhase.3999.Mar2018/examples/MultigrainPlasticity/MultigrainPlasticity
+
+echo "End time :"
+date

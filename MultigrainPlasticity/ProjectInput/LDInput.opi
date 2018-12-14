@@ -1,0 +1,11 @@
+OpenPhase Input File for Large Deformation class
+
+$verbose Severe information output (Yes/No)               : No
+$MaxSolverIterations  Maximum number of solver iterations : 200
+$SolverPrec1   Solver precision strain                    : 10.0e-6
+$SolverPrec2   Solver precision pressure                  : 100.0
+$MaxStrainInc  Max. allowed strain increment              : 0.001
+$nSubMultiplicator  Increment reduction factor            : 2.0
+$maxRefinementNumber                                      : 10
+$IntfStabilisationNeeded                                  : Yes
+$MinLDIterations  Minimum number of LD iterations         : 10

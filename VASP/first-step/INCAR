@@ -1,0 +1,25 @@
+SYSTEM=Al relax
+PREC    = Accurate
+ENCUT   = 500
+EDIFF   = 1E-8
+EDIFFG  = -0.001
+
+ISMEAR  = 2
+SIGMA   = 0.2
+NSW     = 100
+
+IBRION  = 2
+POTIM   = 0.5
+
+ISIF    = 3
+
+#LREAL = .TRUE.
+
+GGA     = PE
+
+#ISPIN   = 2
+#MAGMON  =
+#LORBIT  = 11
+
+LPLANE  = .TRUE.
+NPAR    = 2
